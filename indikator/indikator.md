@@ -1,37 +1,59 @@
+<style>
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+
 Kvalitetsmål for nasjonale kvalitetsregistre
 ========================================================
 author: Tore Morten & Yusman
 date: 24 jan. 2017
 autosize: true
 
-First Slide
+<div class="midcenter"><div style="margin-left:-480px;margin-top:90px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="gambar/servisemiljo.png"></img></div></div>
+
+Hvordan bidra til tydelige kvalitetsmål
 ========================================================
 
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+- Kartlegging
+- Registre er tydelige på sine formål
+- Formål med konkrete spesifike mål
+- Spesifisere hvilke variabler til hvilket spesifikt mål
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+![aims](gambar/aims.png)
 
-Slide With Code
+
+Kvalitetsmål
 ========================================================
 
+Eksempel fra [Barnediabetesregisteret](https://www.kvalitetsregistre.no/registers/nasjonalt-medisinsk-kvalitetsregister-barne-og-ungdomsdiabetes/hva-maler-vi)
 
-```r
-summary(cars)
-```
+[**Formål:**](https://www.kvalitetsregistre.no/registers/nasjonalt-medisinsk-kvalitetsregister-barne-og-ungdomsdiabetes)
+- Overvåke forekomsten av diabetes hos barn og ungdom
+Arbeide for å bedre diagnostikk og klassifisering av sykdommen
+etc ..
 
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
+**De måler:**
+- HbA1c
+- Akutte komplikasjoner
+- Senkomplikasjone
+- etc ..
 
-Slide With Plot
+
+Kvalitetsmål 1: HbA1c
 ========================================================
 
-![plot of chunk unnamed-chunk-2](indikator-figure/unnamed-chunk-2-1.png)
+Flest mulig barn og ungdom med diabetes har HbA1c < 7.5%
+
+![hba1c](gambar/bdr_eg.png)
+Kvalitetsmål er **Antall Relevant / N**
